@@ -1,3 +1,4 @@
+
 mAdserve Open Source Mobile Ad Server - Version 2.0
 
 ---------------------------------------------------
@@ -26,4 +27,4 @@ For SDK Integration instructions, please refer to the installation guides in the
 
 More Information about mAdserve: http://www.madserve.org
 
-If you encounter any problems or questions, please visit the mAdserve help center at http://help.madserve.org...
+If you encounter any problems or questions, please visit the mAdserve help center at http://help.madserve.org
