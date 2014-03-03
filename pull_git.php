@@ -1,7 +1,5 @@
 <?php
 header('Content-Type: text/plain');
-
-$passphrase = "f0rty6!$";
 echo "Attempting git pull\n";
-$r = shell_exec("cd /var/www/html && /usr/bin/git pull");
+$r = shell_exec("cd /var/www/html && /usr/bin/git pull 2>&1");
 echo "Results:\n" . $r;
