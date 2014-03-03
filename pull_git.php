@@ -1,3 +1,6 @@
 <?php
-$output = shell_exec('ls -lart');
-echo "<pre>$output</pre>";
+header('Content-Type: text/plain');
+
+$passphrase = "f0rty6!$";
+echo "Attempting git pull\nResults:\n";
+echo shell_exec("cd /var/www/html/; git pull;");
