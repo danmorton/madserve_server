@@ -18,7 +18,6 @@ MAD_Admin_Redirect::redirect('signin.php');
 }
 
 */
-
 require_once '../../init.php';
 require_once MAD_PATH . '/www/cp/auth.php';
 require_once MAD_PATH . '/functions/adminredirect.php';
@@ -28,7 +27,6 @@ if (logincheck())
 	MAD_Admin_Redirect::redirect('dashboard.php');
 	exit;
 }
-
 ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -62,6 +60,6 @@ if (logincheck())
 			</div>
 	</div> <!-- #login_panel -->		
 </div> <!-- #login -->
-<script src="javascripts/all.js"></script>
+<script src="assets/javascripts/all.js"></script>
 </body>
 </html>

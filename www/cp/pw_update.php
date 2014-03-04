@@ -62,7 +62,7 @@ exit;
 	</div> <!-- #login_panel -->		
 </div> <!-- #login -->
 
-<script src="javascripts/all.js"></script>
+<script src="assets/javascripts/all.js"></script>
 
 
 </body>
