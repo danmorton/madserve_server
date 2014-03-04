@@ -47,24 +47,22 @@ if (logincheck())
 	<link rel="stylesheet" href="assets/stylesheets/theme-default.css" type="text/css" media="screen" title="no title" />
 	<link rel="stylesheet" href="assets/stylesheets/login.css" type="text/css" media="screen" title="no title" />
 </head>
-
 <body>
-
 <div id="login">
 	<h1>Dashboard</h1>
 	<div id="login_panel">
-    <?php if (isset($_GET['failed'])){?><div style="margin-top:14px; font-weight:bold; color:#900;" align="center">Login failed, please try again.</div><?php } ?><?php if (isset($_GET['pwupdate'])){?><div style="margin-top:14px; font-weight:bold; color:#090;" align="center">Password has been reset, you can now log-in.</div><?php } ?>
-		<form action="do_signin.php" method="post" accept-charset="utf-8">		
 			<div class="login_actions">
-				<button type="submit" class="btn btn-primary" tabindex="3">Sign Up</button>
-				<button type="submit" class="btn btn-primary" tabindex="3">Login</button>
+				<center>
+				<form action="do_signin.php" method="get" accept-charset="utf-8">		
+					<button type="submit" class="btn btn-primary" tabindex="3">Sign Up</button>
+				</form>
+				<form action="do_signin.php" method="get" accept-charset="utf-8">		
+					<button type="submit" class="btn btn-primary" tabindex="3">Login</button>
+				</form>
+				</center>
 			</div>
-		</form>
 	</div> <!-- #login_panel -->		
 </div> <!-- #login -->
-
 <script src="javascripts/all.js"></script>
-
-
 </body>
 </html>
