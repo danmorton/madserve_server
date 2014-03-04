@@ -55,10 +55,8 @@ if (logincheck())
 	<div id="login_panel">
     <?php if (isset($_GET['failed'])){?><div style="margin-top:14px; font-weight:bold; color:#900;" align="center">Login failed, please try again.</div><?php } ?><?php if (isset($_GET['pwupdate'])){?><div style="margin-top:14px; font-weight:bold; color:#090;" align="center">Password has been reset, you can now log-in.</div><?php } ?>
 		<form action="do_signin.php" method="post" accept-charset="utf-8">		
-			<div class="signup_actions">
-				<button type="submit" class="btn btn-primary" tabindex="3">Sign Up</button>
-			</div>			
 			<div class="login_actions">
+				<button type="submit" class="btn btn-primary" tabindex="3">Sign Up</button>
 				<button type="submit" class="btn btn-primary" tabindex="3">Login</button>
 			</div>
 		</form>
