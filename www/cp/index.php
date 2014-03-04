@@ -51,14 +51,13 @@ if (logincheck())
 <div id="login">
 	<h1>Dashboard</h1>
 	<div id="login_panel">
-			<div class="login_actions">
-				<center>
-				<form action="do_signin.php" method="get" accept-charset="utf-8">		
+			<div class="login_actions">				
+				<a href="do_signin.php">
 					<button type="submit" class="btn btn-primary" tabindex="3">Sign Up</button>
-				</form>
-				<form action="do_signin.php" method="get" accept-charset="utf-8">		
+				</a>
+				<a href="do_signin.php">
 					<button type="submit" class="btn btn-primary" tabindex="3">Login</button>
-				</form>
+				</a>
 				</center>
 			</div>
 	</div> <!-- #login_panel -->		
